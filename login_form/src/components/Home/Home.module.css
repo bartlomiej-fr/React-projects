@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightseagreen;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.logutBtn {
+    width: 100px;
+    height: 40px;
+    border: 1px lightblue solid;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #444;
+}
+
+.logutBtn:hover {
+    background-color: #444;
+    color: white;
+}
